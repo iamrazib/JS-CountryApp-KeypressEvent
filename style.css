@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.countryArea{
+    display: flex;
+    justify-content: center;
+}
+
+#btnAddCountry{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btnDeleteCountry {
+    padding: 10px;
+    background-color: #e44c4c;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.btnUpdateCountry{
+    padding: 10px;
+    background-color: rgb(76, 228, 76);
+    color: black;
+    border: none;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#setApp{
+    width: 120px;
+    background-color:greenyellow;
+    cursor: pointer;
+}
+#deltApp {
+    width: 130px;
+    background-color:orangered;
+    cursor: pointer;
+}
+
+.bgChanger {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.title{
+    font-size: x-large;
+    margin-bottom: 20px;
+}

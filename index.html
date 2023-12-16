@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Country List-Razibul</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="title">Country App <span id="myAppTitle"></span></h1>    
+    
+    <div class="container">
+        <input id="countryInput" type="text" placeholder="Add Country">
+        <button onclick="addCountry()" id="btnAddCountry">Add Country</button>
+        <button id="setApp"> Set App Name</button>
+        <button id="deltApp"> Delete App Name</button>
+    </div>
+
+    <div class="countryArea">
+        <ul id="countryList"></ul>
+    </div>
+
+
+    <!-- <div id="parent">
+        <ul id="myCountryList">
+            <li class="country">Bangladesh</li>
+            <li class="country">Japan</li>
+            <li class="country">India</li>
+        </ul>
+    </div>
+    <div>
+        <input id="userText" type="text">
+        <button id="getTextbtn">Add Country</button>
+    </div>
+    <br>
+    <div>
+        <Label>Enter Country Name to Remove From List: </Label>
+        <input id="cntyRmvText" type="text">
+        <button id="getCountryRemvbtn">Remove Country</button>
+    </div> -->
+
+
+    <script src="./script.js"></script>
+    <script src="./localStorage.js"></script>
+</body>
+
+</html>
